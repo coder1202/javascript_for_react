@@ -70,11 +70,11 @@ const ages = [33, 12, 34, 56, 67, 45, 34, 44, 22, 45, 33, 91, 23, 28];
 //The map() method does not execute the function for array elements without values.
 //The map() method does not change the original array.
 
-const arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+// const arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
-const mapped_arr = arr.map((e) => e + 10);
+// const mapped_arr = arr.map((e) => e + 10);
 
-console.log(mapped_arr);
+// console.log(mapped_arr);
 
 // companies.map(function(company, index) {
 //     console.log(company, index);
@@ -99,22 +99,20 @@ console.log(mapped_arr);
 //console.log(soreted);
 // const soreted2 = companies.sort((c1, c2) => c1.start < c2.start ? 1 : -1);
 // console.log(soreted2);
-const soreted12 = ages.sort((c1, c2) => c1 - c2);
-console.log(soreted12);
-
-
+// const soreted12 = ages.sort((c1, c2) => c1 - c2);
+// console.log(soreted12);
 
 //The reduce() method runs a function on each array element to produce (reduce it to) a single value.
 //The reduce() method works from left-to-right in the array. See also reduceRight().
 //The reduce() method does not reduce the original array.
 
-let total = 0;
-for (let i = 0; i < ages.length; i++) {
-    total += ages[i];
-}
-console.log(total);
+// let total = 0;
+// for (let i = 0; i < ages.length; i++) {
+//     total += ages[i];
+// }
+// console.log(total);
 
-const sum2 = ages.reduce(function(total, age) {
-    return total + age
-}, 0);
-console.log(sum2);
+// const sum2 = ages.reduce(function(total, age) {
+//     return total + age
+// }, 0);
+// console.log(sum2);
